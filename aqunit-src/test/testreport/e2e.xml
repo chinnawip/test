@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="PhantomJS 1.9 (Windows)" package="e2e" timestamp="2013-07-23T06:12:56" id="0" hostname="ramesh" tests="59" errors="0" failures="1" time="176.899">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.0 Safari/534.34"/>
+    </properties>
+    <testcase name="should redirect index.html to main login screen" time="0.286" classname="e2e PhantomJS 1.9 (Windows).H2WDms Routers"/>
+    <testcase name="should load and check login template" time="0.028" classname="e2e PhantomJS 1.9 (Windows).H2WDms Routers"/>
+    <testcase name="should be reset the fields" time="0.273" classname="e2e PhantomJS 1.9 (Windows).Login Screen"/>
+    <testcase name="should be logged successfully" time="0.285" classname="e2e PhantomJS 1.9 (Windows).Login Screen"/>
+    <testcase name="should load and show the menu template" time="0.259" classname="e2e PhantomJS 1.9 (Windows).Menu Screen"/>
+    <testcase name="click the grid sample application" time="0.284" classname="e2e PhantomJS 1.9 (Windows).Menu Screen"/>
+    <testcase name="click the dms akte application" time="0.292" classname="e2e PhantomJS 1.9 (Windows).Menu Screen"/>
+    <testcase name="check data loaded in akte type combo box" time="0.286" classname="e2e PhantomJS 1.9 (Windows).Record Search Screen"/>
+    <testcase name="check data loaded in kategorie combo box" time="0.247" classname="e2e PhantomJS 1.9 (Windows).Record Search Screen"/>
+    <testcase name="check data loaded in vorgang combo box" time="0.243" classname="e2e PhantomJS 1.9 (Windows).Record Search Screen"/>
+    <testcase name="check data loaded in dokument combo box" time="0.243" classname="e2e PhantomJS 1.9 (Windows).Record Search Screen"/>
+    <testcase name="check data loaded in monat combo box" time="0.253" classname="e2e PhantomJS 1.9 (Windows).Record Search Screen"/>
+    <testcase name="check data loaded in tag combo box" time="0.248" classname="e2e PhantomJS 1.9 (Windows).Record Search Screen"/>
+    <testcase name="Check should be accessed akterechercheresults.html" time="0.484" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="check the number of rows in search result" time="0.493" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="check the number of rendered columns header in search result" time="0.599" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="check the data in row level (row index (3))" time="0.543" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="check the data in vorgang columns" time="0.527" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="check the data in datum columns" time="0.501" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="check the data in eing/ausg columns" time="0.502" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="check data in info columns for 13th row" time="0.548" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="Verify that navigate in to noticereactivate screen when we click the noticereactivate image" time="0.586" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="Verify that navigate in to processinvalidate screen when we click the processinvalidate image" time="0.604" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="Verify that navigate in to processreactivate screen when we click the processreactivate image (10th row)" time="0.596" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="Verify that navigate in to Event List screen when we click the row (4th row) of type event" time="0.638" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="Verify that navigate in to Document List screen when we click the row (6th row) of type process" time="0.947" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="Verify that navigate in to History List screen when we click the toolbar history icon" time="0.672" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="Verify that navigate in to Search List screen when we click the previous year" time="0.597" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="Verify that it load SearchResult for the next vnr via recherche search toolbar icon" time="0.826" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Akte Chronologisch view"/>
+    <testcase name="check the number of rows in standard View" time="0.866" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="check the folder expanded and collapsed in standard View" time="0.997" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="check the number of rendered columns header in standard View" time="0.871" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="check the data in row level (3rd row) in standard View" time="0.865" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="check the data in vorgang columns in standard View" time="0.771" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="check the data in datum columns in standard View" time="0.769" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="check the data in eing/ausg columns in standard View" time="0.771" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="check data in info columns for 13th row in standard View" time="0.764" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="Verify that navigate in to noticereactivate screen when we click the noticereactivate image in standard View" time="0.803" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="Verify that navigate in to processinvalidate screen when we click the processinvalidate image (11th row) in standard View" time="1.001" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="Verify that navigate in to processreactivate screen when we click the processreactivate image (11th row) in standard View" time="0.804" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="Verify that navigate in to Event List screen when we click the row (4th row) of type event in standard View" time="0.884" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="Verify that navigate in to Document List screen when we click the row (6th row) of type process in standard View" time="1.069" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result Standard view"/>
+    <testcase name="check the number of rows in LG-Std view" time="0.678" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result LG-Std view"/>
+    <testcase name="check the folder expanded and collapsed in LG-Std view" time="0.849" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result LG-Std view"/>
+    <testcase name="check the number of rendered columns header in LG-Std view" time="0.711" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result LG-Std view"/>
+    <testcase name="check the data in row level (2nd row) in LG-Std view" time="0.714" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result LG-Std view"/>
+    <testcase name="check the data in vorgang columns in LG-Std view" time="0.697" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result LG-Std view"/>
+    <testcase name="check the data in datum columns in LG-Std view" time="0.682" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result LG-Std view"/>
+    <testcase name="check the data in eing/ausg columns in LG-Std view" time="0.696" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result LG-Std view"/>
+    <testcase name="check data in info columns for 2nd row in LG-Std view" time="120.699" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result LG-Std view"/>
+    <testcase name="Verify that navigate in to Document List screen when we click the row (2nd row) of type process in LG-Std view" time="0.992" classname="e2e PhantomJS 1.9 (Windows).Akte Search Result LG-Std view"/>
+    <testcase name="Check should be accessed aktenhistorie.html" time="0.747" classname="e2e PhantomJS 1.9 (Windows).history list"/>
+    <testcase name="check the number of rendered columns header in history list" time="16.741" classname="e2e PhantomJS 1.9 (Windows).history list">
+      <failure type="">wait for element &apos;Betreff column to be loaded&apos;
+</failure>
+      <failure type="">Timed out after 10 seconds. Element for &apos;div.ng-scope[ng-row=&quot;&quot;]:eq(17) div.ngCell:eq(4)&apos; was not found.
+</failure>
+    </testcase>
+    <testcase name="check the number of rows in resultset in history list" time="1.034" classname="e2e PhantomJS 1.9 (Windows).history list"/>
+    <testcase name="check the data in DATUM columns in history list" time="1.04" classname="e2e PhantomJS 1.9 (Windows).history list"/>
+    <testcase name="check the data in EREIGNS columns in history list" time="1.012" classname="e2e PhantomJS 1.9 (Windows).history list"/>
+    <testcase name="check the data in BENUTZER columns in history list" time="1.023" classname="e2e PhantomJS 1.9 (Windows).history list"/>
+    <testcase name="check the data in BETREFF columns in history list" time="1.354" classname="e2e PhantomJS 1.9 (Windows).history list"/>
+    <testcase name="check the Tooltip data in BETREFF columns for 2nd row in history list" time="3.105" classname="e2e PhantomJS 1.9 (Windows).history list"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>

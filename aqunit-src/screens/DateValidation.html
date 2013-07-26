@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>JQuery Validation Engine</title>
+	<script>
+		jQuery(document).ready(function(){
+			jQuery("#formID").validationEngine();
+			loadCustomRules();
+		});
+  		/* function to load custom rules */
+		function loadCustomRules() {
+			
+			var customRules = {
+					'DAT00003': {
+						'dateFormat': ['TTMM', 'T.M.'],
+						'dateFormatOutput': 'TTMM',
+						'alertText': '* Please enter valid date in one of these formats'
+					},
+					'DAT00004': {
+						'dateFormat': ['TTMMJJ', 'T.M.JJ', 'TT.MM.JJ'],
+						'dateFormatOutput': 'TTMMJJ',
+						'alertText': '* Please enter valid date in correct format'
+					},
+					'DAT00005': {
+						'dateFormat': ['TTMMJJJJ', 'TTMMJJ', 'T.M.JJ', 'T.M.JJJJ'],
+						'dateFormatOutput': 'TTMMJJJJ',
+						'alertText': '* Please enter valid date in correct format'
+					},
+					'DAT00006': {
+						'dateFormat': ['MMJJ', 'M.JJ'],
+						'dateFormatOutput': 'MMJJ',
+						'alertText': '* Please enter valid date in correct format'
+					},
+					'DAT00008': {
+						'dateFormat': ['MM.JJ', 'MM.JJJJ'],
+						'dateFormatOutput': 'MM.JJJJ',
+						'alertText': '* Please enter valid date in correct format'
+					},
+					'DAT00007': {
+						'dateFormat': ['M/JJ', 'M/JJJJ'],
+						'dateFormatOutput': 'MM/JJJJ',
+						'dateRange': ['199001:TODAYM'],
+						'alertText': '* Please enter valid date in correct format',
+						'alertTextRange': ' Please enter valid date range between 01.01.1990 and Today',
+						'alertTextRangeFormat': ' Please define valid date range format like [YYYYMM]:[TODAYM|TODAYE|[TODAYE+N month(s)]] or [<=|<|>|>=][TODAYE|TODAYM|[TODAYE+N month(s)]]'
+					},
+					'DAT00009': {
+						'dateFormat': ['TTMMJJJJ', 'TTMMJJ', 'T.M.JJ', 'T.M.JJJJ'],
+						'dateFormatOutput': 'TT.MM.JJJJ',
+						'dateRange': ['<=TODAYE'],
+						'alertText': '* Please enter valid date in correct format',
+						'alertTextRange': ' Please enter valid date <= Today',
+						'alertTextRangeFormat': ' Please define valid date range format like [YYYYMM]:[TODAYM|TODAYE|[TODAYE+N month(s)]] or [<=|<|>|>=][TODAYE|TODAYM|[TODAYE+N month(s)]]'
+					},
+					'DAT00011': {
+						'dateFormat': ['TTMMJJJJ', 'TTMMJJ', 'T.M.JJ', 'T.M.JJJJ'],
+						'dateFormatOutput': 'TT.MM.JJJJ',
+						'dateRange': ['TODAYE:TODAYE+6M'],
+						'alertText': '* Please enter valid date in correct format',
+						'alertTextRange': ' Please enter valid date range between TODAYE:TODAYE+6M',
+						'alertTextRangeFormat': ' Please define valid date range format like [YYYYMM]:[TODAYM|TODAYE|[TODAYE+N month(s)]] or [<=|<|>|>=][TODAYE|TODAYM|[TODAYE+N month(s)]]'
+					},
+					'DAT00012': {
+						'dateFormat': ['TTMMJJJJ', 'T.M.JJJJ', 'TT.MM.JJJJ'],
+						'dateFormatOutput': 'TT.MM.JJJJ',
+						'alertText': '* Please enter valid date in correct format'
+					},
+					'DAT00013': {
+						'dateFormat': ['TTMM', 'T.M.', 'T.MM.', 'TT.M.'],
+						'dateFormatOutput': 'TT.MM.',
+						'alertText': '* Please enter valid date in correct format'
+					}
+				},
+				keys , len;
+				
+				/** To support all browsers */
+				if (typeof Object.keys != 'function') {
+					Object.keys = function(obj) {
+					if (typeof obj != "object" && typeof obj != "function" || obj == null) {
+					    throw TypeError("Object.keys called on non-object");
+					} 
+					var keys = [];
+					for (var p in obj) obj.hasOwnProperty(p) &&keys.push(p);
+					return keys;
+					}
+				}
+				keys = Object.keys(customRules), len = keys.length;
+				while(len--) {
+					options.allrules[keys[len]] = customRules[keys[len]];
+				}
+		//		jQuery("#formID").data('jqv', options);
+			};
+	
+	</script>
+</head>
+<body>
+	<form id="formID" class="formular" method="post" action="">
+	<table width="100%" >
+		<tbody>
+			<tr>
+		<td>
+		<fieldset>
+			<legend>
+				Date
+			</legend>
+			<span>
+			  <b>Rule:</b>
+			  DAT00003 DATUM  EIN=(TTMM,T.M.),AUS='TTMM' 
+			</span>
+			<label>
+				<input value="" class="validate[date[DAT00003]] text-input" type="text" name="date1" id="date1" />
+			</label>
+			<span>
+			  <b>Rule:</b>
+			  DAT00004 DATUM  EIN=(TTMMJJ,T.M.JJ,TT.MM.JJ),AUS='TTMMJJ'
+			</span>
+			<label>
+				<input value="" class="validate[date[DAT00004]] text-input" type="text" name="date2" id="date2" />
+			</label>
+
+			<span>
+			  <b>Rule:</b>
+			  DAT00005 DATUM  EIN=(TTMMJJJJ,TTMMJJ,T.M.JJ,T.M.JJJJ),AUS='TTMMJJJJ' 
+			</span>
+			<label>
+				<input value="" class="validate[date[DAT00005]] text-input" type="text" name="date3" id="date3" />
+			</label>
+			<span>
+			  <b>Rule:</b>
+			  DAT00006 DATUM  EIN=(MMJJ,M.JJ),AUS='MMJJ'
+			</span>
+			<label>
+				<input value="" class="validate[date[DAT00006]] text-input" type="text" name="date4" id="date4" />
+			</label>
+			<span>
+			  <b>Rule:</b>
+			  DAT00008 DATUM EIN=(MM.JJ,MM.JJJJ),AUS='MM.JJJJ' 
+			</span>
+			<label>
+				<input value="" class="validate[date[DAT00008]] text-input" type="text" name="date5" id="date5" />
+			</label>
+			<span>
+			  <b>Rule:</b>
+			  DAT00012 DATUM  EIN=(TTMMJJJJ,T.M.JJJJ,TT.MM.JJJJ),AUS=TT.MM.JJJJ
+			</span>
+			<label>
+				<input value="" class="validate[date[DAT00012]] text-input" type="text" name="date6" id="date6" />
+			</label>
+			<span>
+			  <b>Rule:</b>
+			  DAT00013 DATUM  EIN=(TTMM,T.M.,T.MM.,TT.M.),AUS=TT.MM.
+			</span>
+			<label>
+				<input value="" class="validate[date[DAT00013]] text-input" type="text" name="date7" id="date7" />
+			</label>
+			<span>
+			  <b>Rule:</b>
+			  DAT00009 DATUM  EIN=(TTMMJJJJ,TTMMJJ,T.M.JJ,T.M.JJJJ),AUS=TT.MM.JJJJ,  ZEIT=(<=HEUTE)
+			</span>
+			<label>
+				<input value="" class="validate[date[DAT00009]] text-input" type="text" name="date8" id="date8" />
+			</label>
+			<span>
+			  <b>Rule:</b>
+			  DAT00011 DATUM  EIN=(TTMMJJJJ,TTMMJJ,T.M.JJ,T.M.JJJJ),AUS=TT.MM.JJJJ, ZEIT=(HEUTE:HEUTE+6M)
+			</span>
+			<label>
+				<input value="" class="validate[date[DAT00011]] text-input" type="text" name="date9" id="date9" />
+			</label>
+			<span>
+			  <b>Rule:</b>
+			  DAT00007 DATUM EIN=(M/JJ,M/JJJJ),AUS='MM/JJJJ',ZEIT=(199001:HEUTM)
+			</span>
+			<label>
+				<input value="" class="validate[date[DAT00007]] text-input" type="text" name="date10" id="date10" />
+			</label>
+		</fieldset>
+		</td>
+	</tr>
+	</tbody>
+	</table>
+	</form>
+</body>
+</html>

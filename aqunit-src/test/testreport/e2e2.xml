@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="Chrome 28.0 (Windows)" package="e2e2" timestamp="2013-07-26T11:16:56" id="0" hostname="chinna-PC" tests="163" errors="0" failures="0" time="48.36">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36"/>
+    </properties>
+    <testcase name="Rule : ADV0200" time="0.35" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : ADV0500" time="0.254" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0100" time="0.155" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0101" time="0.142" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0102" time="0.175" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0104" time="0.148" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0106" time="0.159" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0107" time="0.191" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0200" time="0.136" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0201" time="0.133" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0202" time="0.178" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0205" time="0.438" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0207" time="0.242" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0208" time="0.145" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0300" time="0.14" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0301" time="0.156" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0302" time="0.215" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0303" time="0.468" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0304" time="0.17" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0305" time="0.229" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0308" time="0.135" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0309" time="0.218" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0400" time="0.26" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0402" time="0.306" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0404" time="0.182" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0407" time="0.255" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0500" time="0.175" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0502" time="0.716" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0503" time="0.516" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0504" time="0.239" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0600" time="0.164" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0602" time="0.309" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0604" time="0.14" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0605" time="0.132" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0608" time="0.238" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0700" time="0.153" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0702" time="0.138" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0800" time="0.191" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0801" time="0.138" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0802" time="0.16" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0807" time="0.222" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0900" time="0.181" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0902" time="0.197" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0905" time="0.499" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM0906" time="0.223" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM1000" time="0.161" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM1002" time="0.129" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM1005" time="0.128" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM1100" time="0.129" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM1102" time="0.17" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM1300" time="0.286" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRM1400" time="0.18" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00100" time="0.147" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00101" time="0.144" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00102" time="0.188" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00103" time="0.499" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00104" time="0.19" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00105" time="0.138" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00106" time="0.135" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00112" time="0.154" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00200" time="0.666" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00201" time="0.216" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00202" time="0.274" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00203" time="0.314" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00205" time="0.487" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00300" time="0.367" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00301" time="0.163" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00302" time="0.145" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00303" time="0.243" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00304" time="0.666" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00306" time="0.313" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00308" time="1.235" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00400" time="0.254" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00401" time="0.125" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00402" time="0.205" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00403" time="0.134" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00404" time="0.341" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00405" time="0.554" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00407" time="0.181" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00500" time="0.314" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00501" time="0.183" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00502" time="0.229" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00503" time="0.288" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00600" time="0.132" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00601" time="1.044" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00602" time="0.233" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00603" time="0.227" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00608" time="0.552" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00700" time="0.497" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00701" time="0.148" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00702" time="0.415" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00703" time="0.29" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00800" time="0.839" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00801" time="0.257" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00802" time="0.129" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00803" time="0.24" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00805" time="0.304" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00807" time="0.4" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00900" time="0.244" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00901" time="0.354" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00902" time="0.955" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00903" time="0.158" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR00905" time="1.042" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR01000" time="0.217" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR01001" time="0.686" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR01002" time="0.656" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR01003" time="0.239" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR01004" time="0.147" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR01005" time="0.195" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR01102" time="0.234" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTR01302" time="0.224" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRLVE01" time="0.208" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRLVE02" time="0.242" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRLVE03" time="0.41" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRLVF01" time="0.238" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRN0700" time="0.178" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : BTRW0202" time="0.38" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPBTG01 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.146" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPBTG02 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.879" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0101 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.257" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0106 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.359" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0402 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.21" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0403 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.621" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0500 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.171" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0501 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.401" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0502 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.162" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0600 LEER(&apos;&apos;,0,&apos;&apos;)" time="1.578" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0602 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.417" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0700 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.295" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0701 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.207" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSPV0702 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.806" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00100 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.19" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00200 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.13" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00201 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.13" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00300 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.194" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00302 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.14" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00400 LEER(&apos;&apos;,0,&apos;&apos;)" time="3.016" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00402 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.275" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00500 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.178" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00501 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.184" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00502 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.142" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00600 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.232" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00601 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.18" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00602 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.14" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00603 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.196" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00700 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.191" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00701 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.154" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00702 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.423" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00800 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.137" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00802 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.195" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP00902 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.329" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP01000 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.164" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : VSP01200 LEER(&apos;&apos;,0,&apos;&apos;)" time="0.365" classname="e2e2 Chrome 28.0 (Windows).Amount Validation"/>
+    <testcase name="Rule : DAT00003" time="0.088" classname="e2e2 Chrome 28.0 (Windows).Date Validation"/>
+    <testcase name="Rule : DAT00004" time="0.05" classname="e2e2 Chrome 28.0 (Windows).Date Validation"/>
+    <testcase name="Rule : DAT00005" time="0.236" classname="e2e2 Chrome 28.0 (Windows).Date Validation"/>
+    <testcase name="Rule : DAT00006" time="0.048" classname="e2e2 Chrome 28.0 (Windows).Date Validation"/>
+    <testcase name="Rule : DAT00008" time="0.201" classname="e2e2 Chrome 28.0 (Windows).Date Validation"/>
+    <testcase name="Rule : DAT00013" time="0.039" classname="e2e2 Chrome 28.0 (Windows).Date Validation"/>
+    <testcase name="Rule : DAT00007" time="0.051" classname="e2e2 Chrome 28.0 (Windows).Date Validation"/>
+    <testcase name="Rule : DAT00009" time="0.045" classname="e2e2 Chrome 28.0 (Windows).Date Validation"/>
+    <testcase name="Rule : DAT00011" time="0.046" classname="e2e2 Chrome 28.0 (Windows).Date Validation"/>
+    <testcase name="Rule : DAT00012" time="0.062" classname="e2e2 Chrome 28.0 (Windows).Date Validation"/>
+    <system-out><![CDATA[Chrome 28.0 (Windows) LOG: 'JQMIGRATE: Logging is active'
+
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
